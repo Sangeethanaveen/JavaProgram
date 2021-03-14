@@ -6,12 +6,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CollegeStaffDetails {
-    static Map<Integer, String> staffDetailEng = new HashMap<Integer, String>();
+    Map<Integer, String> staffDetailEng = new HashMap<Integer, String>();
     ArrayList<Integer> engValue = new ArrayList<>();
     ArrayList<Integer> artsValue = new ArrayList<>();
-    static Map<Integer, String> staffDetailArts = new HashMap<Integer, String>();
-    public static String staffNameArts;
-    public static String staffNameEngg;
+    Map<Integer, String> staffDetailArts = new HashMap<Integer, String>();
+    public  String staffNameArts;
+    public  String staffNameEngg;
     public static int countStaffEng = 0;
     public static int countStaffArts = 0;
     public int ageEng;

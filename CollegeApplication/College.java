@@ -57,7 +57,7 @@ public class College extends CollegeStaffDetails {
         //To get the oldest person in college
         staff.setMaxAge();
 
-        //acess for labs
+        //access for labs
         System.out.println("*******Lab Accesss for Art Department********");
         arts.musicFacility();
         arts.labFacility();
